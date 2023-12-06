@@ -14,6 +14,6 @@ function getRandomColor(){
 
 btn.addEventListener("click",function(){
     let randomColor=getRandomColor(); 
-    colorName.innerText="Color Code : "+randomColor;
+    colorName.innerText="Color : "+randomColor;
     div.style.backgroundColor=randomColor;
 });
